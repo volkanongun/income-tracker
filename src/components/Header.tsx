@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 interface Props {
-    totalIncome: number;
+  totalIncome: number;
 }
 
 const Header: React.FC<Props> = ({ totalIncome }) => {
-    return (
-        <header>
-            <h1>Income Tracker</h1>
-            <div className="totalIncome">${totalIncome}</div>
-        </header>   
-    )
-}
+  return (
+    <header>
+      <h1>Income Tracker</h1>
+      <div className="totalIncome">${totalIncome}</div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
